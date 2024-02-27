@@ -1,0 +1,102 @@
+body{
+    background-color: rgb(181, 178, 178);
+    text-align: center;
+    color: rgb(61, 157, 125);
+    margin-top: 5%;
+}
+.body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2%;
+}
+.box{
+    border: 5px solid rgb(143, 72, 72);
+    text-align: center;
+    width: 400px;
+    height: 400px;
+    padding-top: 20px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 7px;
+    animation: anime 4s infinite;
+}
+.fig{
+    height: 25%;
+}
+.btn{
+    height: 70px;
+    width: 70px;
+    border: none;
+    border-radius: 45%;
+    background-color: rgba(46, 205, 107, 0.436);
+    margin: 10px;
+    margin-top: 50px;
+}
+.btn:hover{
+    height: 73px;
+    width: 73px;
+    box-shadow: 40px black;
+}
+#rock{
+    background-image: url(picture/rock.jpg);
+    background-size: cover;
+}
+#paper{
+    margin-top: 10px;
+    background-image: url(picture/paper.jpg);
+    background-size: cover;
+    padding: 10px;
+}
+#scissors{
+    background-image: url(picture/scissors.jpg);
+    background-size: cover;
+}
+.number{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    color: rgb(247, 79, 135);
+    font-size: 20px;
+}
+.winCount{
+    margin: 20px;
+}
+.final{
+    background-color: rgb(133, 133, 234);
+    width: 200px;
+    height: 70px;
+    margin-left: 20%;
+    margin-top: 10px;
+    border-radius: 6px;
+}
+.text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:rgb(181, 178, 178);
+    font-size: 120%;
+}
+#reset{
+    background-color: blueviolet;
+    border: none;
+    border-radius: 4px;
+    margin-left: 20px;
+    margin-top: 9px;
+}
+#reset:hover{
+    font-size: 110%;
+
+}
+/* Animation */
+@keyframes anime{
+    10%{
+        border-color: rgb(89, 234, 234);
+    }
+    50%{
+        border-color: rgb(155, 255, 101);
+    }
+    100%{
+        border-color:cadetblue
+    }
+}
